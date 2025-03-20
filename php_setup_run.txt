@@ -1,0 +1,7 @@
+At first the xampp is installed and where the xampp is installed,
+there we find the htdocs folder ,Inside it we make a folder for our work.
+After that,we start the xampp apache and sql ,finally we run the browser like:
+localhost/project_name/
+
+For sql database:
+localhost/phpmyadmin/
