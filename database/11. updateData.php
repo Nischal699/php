@@ -11,7 +11,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "UPDATE MyDetails SET lastname='Doe' WHERE id=2";
+$sql = "UPDATE MyDetails SET firstname='Miya' WHERE id=2";
 
 if ($conn->query($sql) === TRUE) {
   echo "Record updated successfully";
