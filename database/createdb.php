@@ -13,7 +13,7 @@ else{
 }
 
 // Create database
-$sql = "CREATE DATABASE webTech ";
+$sql = "CREATE DATABASE mydb ";
 if ($conn->query($sql) === TRUE) {
     echo "Database created successfully";
 } else {
