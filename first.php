@@ -1,6 +1,6 @@
 <?php
 $x=10;
 $y=20;
- echo"Hello World";
+ echo"Hello Nischal";
  print"<br> I love php ";
 ?>
