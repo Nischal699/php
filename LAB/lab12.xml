@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <name>John Doe</name>
+        <employee_id>EMP001</employee_id>
+        <salary>60000</salary>
+        <address>123 Main St, Springfield, IL</address>
+    </employee>
+    <employee>
+        <name>Jane Smith</name>
+        <employee_id>EMP002</employee_id>
+        <salary>65000</salary>
+        <address>456 Oak St, Austin, TX</address>
+    </employee>
+    <employee>
+        <name>Michael Johnson</name>
+        <employee_id>EMP003</employee_id>
+        <salary>70000</salary>
+        <address>789 Pine St, Denver, CO</address>
+    </employee>
+</employees>
