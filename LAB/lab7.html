@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Background Color</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        @media (max-width: 300px) {
+            body {
+                background-color: black;
+                color: white;
+            }
+        }
+
+        @media (min-width: 301px) and (max-width: 700px) {
+            body {
+                background-color: yellow;
+                color: black;
+            }
+        }
+
+        @media (min-width: 701px) and (max-width: 1000px) {
+            body {
+                background-color: blue;
+                color: white;
+            }
+        }
+
+        @media (min-width: 1001px) {
+            body {
+                background-color: red;
+                color: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    Resize the browser window.
+</body>
+</html>
