@@ -50,6 +50,8 @@ Address: <input type="text" name="add"> <span class="formerror"></span>
 </div>
 <input type="submit" value="Submit" class="btn">
 </form>
+
+<!--Javascript-->
 <script>
 function clearerror()
 {
@@ -64,6 +66,8 @@ function seterror(id,error)
 element=document.getElementById(id);
 element.getElementsByClassName('formerror')[0].innerHTML=error;
 }
+
+//Actual validation
 function formvalidate()
 {
 var valreturn=true;
