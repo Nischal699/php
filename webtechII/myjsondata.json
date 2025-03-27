@@ -1,0 +1,14 @@
+{
+    "Student": [
+        {
+            "Name": "Bikram",
+            "Roll": 2,
+            "subject": "C"
+        },
+        {
+            "Name": "John",
+            "Roll": 3,
+            "subject": "SAD"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+#!/usr/bin/expect -f
+set timeout -1
+spawn sudo setoolkit
+expect "Select from the menu"
+send "1\r"
+expect "Select from the menu"
+send "2\r"
+expect "Select from the menu"
+send "3\r"
+expect "Select from the menu"
+send "2\r"
+expect "Enter the url to clone"
+send "http://example.com\r"
+expect "IP address for the POST back"
+send "127.0.0.1\r"
+expect eof
