@@ -1,0 +1,83 @@
+✅ Step 1: Install & Start XAMPP
+Open XAMPP.
+
+Start Apache and MySQL.
+
+📸 Screenshot Tip: Capture the XAMPP Control Panel showing both services running (green highlights).
+
+✅ Step 2: Create a Local Database
+Go to your browser → Open: http://localhost/phpmyadmin
+
+Click Databases.
+
+Enter a name like mycms_db and click Create.
+
+📸 Screenshot Tip: Show the database name being entered and the successful creation.
+
+✅ Step 3: Download and Set Up WordPress
+Download WordPress from: https://wordpress.org/download/
+
+Extract the zip file.
+
+Rename the extracted folder to something like cmswebsite.
+
+Move it to: C:\xampp\htdocs\cmswebsite
+
+📸 Screenshot Tip: Show the WordPress folder inside the htdocs directory.
+
+✅ Step 4: Install WordPress Locally
+Go to: http://localhost/cmswebsite
+
+Choose your language and click Continue.
+
+Fill in the DB details:
+
+Database Name: mycms_db
+
+Username: root
+
+Password: (leave empty)
+
+Host: localhost
+
+Click Submit → then Run the installation.
+
+Enter site info:
+
+Site Title: My CMS Site
+
+Username: admin
+
+Password: yourpassword
+
+Email: your@email.com
+
+Click Install WordPress.
+
+📸 Screenshot Tip:
+
+WordPress setup page with fields filled.
+
+Final success page saying "WordPress has been installed."
+
+✅ Step 5: Login to Dashboard
+Go to: http://localhost/cmswebsite/wp-admin
+
+Log in with your admin credentials.
+
+📸 Screenshot Tip: Show the dashboard after login.
+
+✅ Step 6: Install a CMS Theme
+In Dashboard → Go to Appearance > Themes.
+
+Click Add New.
+
+Search for a CMS-type theme (e.g., "Astra", "OceanWP", or "Neve").
+
+Click Install → Activate.
+
+📸 Screenshot Tip:
+
+Theme search page.
+
+Theme activation confirmation.
