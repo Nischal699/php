@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="employee.xsd">
+    <name>John Doe</name>
+    <address>123 Main Street, Cityville</address>
+    <age>30</age>
+    <gender>Male</gender>
+    <phoneNumber>123-456-7890</phoneNumber>
+</employee>
